@@ -1,0 +1,14 @@
+---
+username: schuyler
+password: qjmwqa9dgkzjs2yt
+project: Playground
+files:
+  devise.en.yml:
+    master: devise.en.yml
+    es:     translated/devise.es.yml
+    fr:     translated/devise.fr.yml
+  translation_temp.json:
+    master: translation_temp.json
+    es:     translated/es.json
+    fr:     translated/fr.json
+

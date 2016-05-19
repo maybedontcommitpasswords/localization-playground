@@ -1,0 +1,47 @@
+fr:
+  errors:
+    messages:
+      not_found: "not found"
+      already_confirmed: "was already confirmed"
+      not_locked: "was not locked"
+  devise:
+    failure:
+      unauthenticated: "Please sign in."
+      unconfirmed: "Please confirm your account."
+      locked: "Your account is locked."
+      invalid: "Invalid email, username, or password."
+      invalid_token: "Invalid authentication token."
+      timeout: "Your session has expired, please sign in again."
+      inactive: "Your account has not been activated yet."
+      suspicious: "Your IP address has been temporarily blocked."
+    sessions:
+      signed_in: "Signed in successfully."
+      signed_out: "Signed out successfully."
+    passwords:
+      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
+      updated: "Your password was changed successfully. You are now signed in."
+    confirmations:
+      send_instructions: "You will receive an email with a link to confirm your account in a few minutes."
+      confirmed: "Your account was successfully confirmed. You are now signed in."
+    registrations:
+      signed_up: "You have signed up successfully."
+      updated: "You updated your account successfully."
+      destroyed: "Bye! Your account was successfully canceled. We hope to see you again soon."
+    unlocks:
+      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
+      unlocked: "Your account was successfully unlocked. You are now signed in."
+    shared:
+      links:
+        sign_in: "Already have an account?"
+        sign_up: "Don't have an account yet?"
+        forgot_password: "Forgot your password?"
+        resend_confirmation: "Didn't receive confirmation instructions?"
+        resend_unlock: "Didn't receive unlock instructions?"
+        skip: "Don't want an account?"
+    mailer:
+      confirmation_instructions:
+        subject: "Confirm Your New Plex Account"
+      reset_password_instructions:
+        subject: "Reset your password"
+      unlock_instructions:
+        subject: "Unlock your account"
